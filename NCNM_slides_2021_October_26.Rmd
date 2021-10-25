@@ -231,4 +231,9 @@ Run the following code and wait for seconds: <br>
  
 # EDA Appetizer {data-background="images/bkgnd-2.svg"}
 
+<img data-src="images/eda1.png" height="575" width="840" />
 
+
+# EDA Appetizer {data-background="images/bkgnd-2.svg"}
+
+<img data-src="images/eda2.jpg" height="575" width="840" />
