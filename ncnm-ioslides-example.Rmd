@@ -49,19 +49,19 @@ opts_chunk$set(echo = FALSE)
 
 - Allen Razdow
 
-## Project Background {data-background="images/bkgnd-2-io.svg"}
+## Project Background {data-background="images/bkgnd-2.svg"}
 
-<div style="font-size:14pt">
+<div style="font-size:12pt">
 
- - The current developing situation in NCNM:
+- The current developing situation in NCNM:
 
 They are at a turning point right now. Historically NCNM has had few resources in order to acquire grants and successfully administer ten in order to complete projects. With pandemic related dollars flowing to the region they finally have capital to spend on some of our most needed projects. Broadband access and issues of outmigration are the two biggest issues exiting.
 
- - What approaches are used for collecting data:
+- What approaches are used for collecting data:
 
 Census, mostly. They don’t collect a lot of data from their office but would be happy if there were recommendations on the gaps in census data or the insufficiencies that they’re seeing by the census as a region.
 
- - What variables will we use for this project? On what scales are they measured:
+- What variables will we use for this project? On what scales are they measured:
 
 Demographics(categorical).<br>
 Income(numerical), range: 0-1,000,000,000,000 (unsure if this is the maximum) gross receipts tased.<br>
@@ -71,9 +71,9 @@ Number of business establishments(numerical).<br>
 
 </div>
 
-## Project focus {data-background="images/bkgnd-2-io.svg"}
+## Project focus {data-background="images/bkgnd-2.svg"}
 
-<div style="font-size:16pt">
+<div style="font-size:14pt">
 
 The ED-900 form must accompany all EDA grant applications.  Here's an example:   
 <div style="left-margin:40px">
@@ -82,29 +82,118 @@ The ED-900 form must accompany all EDA grant applications.  Here's an example:
 
 Ultimate Goal:
 
- - TrueNumbers database that can be accessed by NCNMEDD and local government  staff to assist with grant applications.
-
- - An analysis of the data from the region - we have fairly low census response rates which could lead to data quality issues - if data quality issues exist, we need to come up with supplemental sources of data to improve inferences made about the region.
+- TrueNumbers database that can be accessed by NCNMEDD and local government  staff to assist with grant applications.
+- An analysis of the data from the region - we have fairly low census response rates which could lead to data quality issues - if data quality issues exist, we need to come up with supplemental sources of data to improve inferences made about the region.
 
 Focusing on for this semester:
 
- - TrueNumbers
-
- - Dive into that the census is, why it’s important, and how low response rates may pose an issue.
+- TrueNumbers
+- Dive into that the census is, why it’s important, and how low response rates may pose an issue.
 
 </div>
 </div>
 
-## Our approach {data-background="images/bkgnd-2-io.svg"}
+## Our approach {data-background="images/bkgnd-2.svg"}
 
 
+## Trueumbers {data-background="images/bkgnd-2.svg"}
 
-## Truenumbers {data-background="images/bkgnd-2-io.svg"}
+<div style="font-size:16pt">
 
+tnum.authorize:
 
+- Make and render a graph from a list of phrase paths 
+- Usage:tnum.authorize(ip = " ")
 
-## Data {data-background="images/bkgnd-2-io.svg"}
+tnum.setSpace:
 
+- Set a particular number space as current 
+- Usage:tnum.setSpace(name = "testspace")
+
+## Trueumbers continue.. {data-background="images/bkgnd-2.svg"}
+
+<div style="font-size:12pt">
+tnum.getDBPathList: 
+
+- Get phrase taxonomies
+- Usage:tnum.getDBPathList(
+  taxonomy = "subject",
+  pattern = "",
+  levels = NA,
+  max = 100,
+  start.at = 0
+)
+
+tnum.graphPathList:
+
+- Make and render a graph from a list of phrase paths 
+- Usage:tnum.graphPathList(
+  pathList = list(),
+  rootLabel = "ROOT",
+  levels = 10,
+  style = "neato"
+)
+
+tnum.query: 
+
+- Query the truenumber DB 
+- Usage:tnum.query(query = "* has *", SI = FALSE, max = 10, start = 0)
+
+</div>
+
+## Trueumbers continue... {data-background="images/bkgnd-2.svg"}
+
+<img data-src="images/Tnum Cheatsheet.png" height="575" width="840" />
+
+## Trueumbers continue.... {data-background="images/bkgnd-2.svg"}
+
+<div style="font-size:12pt">
+tnum.objectsToDf: 
+
+- make data frame from list of tnum objects 
+- Usage:tnum.objectsToDf(objs)
+
+tnum.graphTnumList：
+
+- Make full tnum graph from tnum.query return data frame
+- Usage:
+tnum.graphTnumList(
+  tlist,
+  tagpattern = "",
+  collectors = list(),
+  style = "neato"
+)
+
+tnum.getAttrFromList:
+
+- Title 
+- Usage: tnum.getAttrFromList(obs, attname, rval = NA)
+
+</div>
+
+## Data {data-background="images/bkgnd-2.svg"}
+
+<div style="font-size:14pt">
+Design functions to clean the data in order to let everyone easily use 'filter&select' to tackle the data:
+<div style="left-margin:40px">
+
+Modify Dataset:
+- clean_tag: Modify the columns of subjects and tags to more simple columns <br>
+- get_county: Modify the column of county to more simple column <br>
+
+Function for tackling the data for further analysis:
+- get_county_data: This function is designed to get the data from different county <br>
  
+You still need some steps to get the data: 
+
+Connect BU VPN: vpn.bu.edu <br>
+Run the following code and wait for seconds: <br>
+- source(file='data_clean/mexico_screen_function.R')<br>
+- data<-get_county_data()<br>
+- data %>% view()<br>
+</div>
+</div>
  
-## EDA Appetizer {data-background="images/bkgnd-2-io.svg"}
+## EDA Appetizer {data-background="images/bkgnd-2.svg"}
+
+
