@@ -184,7 +184,45 @@ tnum.getAttrFromList:
 - Title 
 - Usage: tnum.getAttrFromList(obs, attname, rval = NA)
 
+# Data {data-background="images/bkgnd-2.svg"}
 
+<div style="font-size:16pt">
+Data Source
+<div style="left-margin:40px">
+The ACS is a large demographic survey collected throughout the year using mailed questionnaires, telephone interviews, and visits from Census Bureau field representatives to about 3.5 million household addresses annually.
+
+Data availability for geographic areas differs by population size: 
+<div style="font-size:15pt">
+1-year estimates are available for areas of population 65,000 or more, while 5-year estimates are available for all areas.
+</div>
+</div>
+</div>
+
+# Data {data-background="images/bkgnd-2.svg"}
+
+<div style="font-size:16pt">
+Parameter interpretation
+<div style="left-margin:40px">
+Estimates are produced for 
+- demographic characteristics (sex,age,);<br>
+- social characteristics (school enrollment, educational attainment);<br>
+- economic characteristics (employment status, commuting to work);<br>
+- housing characteristics (housing occupancy, units in structure).<br>
+
+
+</div>
+</div>
+
+# Data {data-background="images/bkgnd-2.svg"}
+
+<div style="font-size:16pt">
+Parameter interpretation
+<div style="left-margin:40px">
+Estimates are produced for demographic characteristics (sex,age,), social characteristics (school enrollment, educational attainment), economic characteristics (employment status, commuting to work), and housing characteristics (housing occupancy, units in structure). <br>
+
+
+</div>
+</div>
 
 # Data {data-background="images/bkgnd-2.svg"}
 
