@@ -54,11 +54,11 @@ Am I here?
 
 # Our Partners {data-background="images/bkgnd-2.svg"}
 
-- Aidan O'Hara
+- Aidan O'Hara:has been preparing for this project since late July
 
-- Alison Turner
+- Alison Turner: a Community Development Planner at NCNMEDD and recent MSSP graduate
 
-- Allen Razdow
+- Allen Razdow:founder and president of True Engineering Technology, LLC and originator of Truenumbers
 
 # Project Background {data-background="images/bkgnd-2.svg"}
 
@@ -101,7 +101,7 @@ Focusing on for this semester:
 
 - TrueNumbers
 
-- Dive into that the census is, why it’s important, and how low response rates may pose an issue.
+- Dive into what the census is, why it’s important, and how low response rates may pose an issue.
 
 </div>
 </div>
