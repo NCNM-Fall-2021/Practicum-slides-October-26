@@ -115,7 +115,7 @@ Focusing on for this semester:
 # Our approach {data-background="images/bkgnd-2.svg"}
 
 
-# Trueumbers {data-background="images/bkgnd-2.svg"}
+# Truenumbers {data-background="images/bkgnd-2.svg"}
 
 <div style="font-size:16pt">
 
@@ -129,7 +129,7 @@ tnum.setSpace:
 - Set a particular number space as current 
 - Usage:tnum.setSpace(name = "testspace")
 
-# Trueumbers continue.. {data-background="images/bkgnd-2.svg"}
+# Truenumbers continue.. {data-background="images/bkgnd-2.svg"}
 
 tnum.getDBPathList: 
 
@@ -157,11 +157,11 @@ tnum.query:
 - Query the truenumber DB 
 - Usage:tnum.query(query = "* has *", SI = FALSE, max = 10, start = 0)
 
-# Trueumbers continue... {data-background="images/bkgnd-2.svg"}
+# Truenumbers continue... {data-background="images/bkgnd-2.svg"}
 
 <img data-src="images/Tnum Cheatsheet.png" height="575" width="840" />
 
-# Trueumbers continue.... {data-background="images/bkgnd-2.svg"}
+# Truenumbers continue.... {data-background="images/bkgnd-2.svg"}
 
 tnum.objectsToDf: 
 
@@ -189,6 +189,8 @@ tnum.getAttrFromList:
 <div style="font-size:16pt">
 Data Source
 <div style="left-margin:40px">
+Our data is from ACS(American Community Survey). 
+
 The ACS is a large demographic survey collected throughout the year using mailed questionnaires, telephone interviews, and visits from Census Bureau field representatives to about 3.5 million household addresses annually.
 
 Data availability for geographic areas differs by population size: 
@@ -209,6 +211,7 @@ Estimates are produced for
 - economic characteristics (employment status, commuting to work);<br>
 - housing characteristics (housing occupancy, units in structure).<br>
 
+In this presentation, we basically focused on 
 
 </div>
 </div>
@@ -216,16 +219,7 @@ Estimates are produced for
 # Data {data-background="images/bkgnd-2.svg"}
 
 <div style="font-size:16pt">
-Parameter interpretation
-<div style="left-margin:40px">
-Estimates are produced for demographic characteristics (sex,age,), social characteristics (school enrollment, educational attainment), economic characteristics (employment status, commuting to work), and housing characteristics (housing occupancy, units in structure). <br>
-
-
-</div>
-</div>
-
-# Data {data-background="images/bkgnd-2.svg"}
-
+What did we do?
 <div style="font-size:14pt">
 Design functions to clean the data in order to let everyone easily use 'filter&select' to tackle the data:
 <div style="left-margin:40px">
@@ -242,6 +236,7 @@ Run the following code and wait for seconds: <br>
 - source(file='data_clean/mexico_screen_function.R')<br>
 - data<-get_county_data()<br>
 - data %>% view()<br>
+</div>
 </div>
 </div>
  
