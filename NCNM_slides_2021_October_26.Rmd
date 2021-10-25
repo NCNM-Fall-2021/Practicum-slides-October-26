@@ -1,0 +1,115 @@
+---
+output: 
+  revealjs::revealjs_presentation:
+    template: reveal_template.html
+    theme: white
+    highlight: pygments 
+    css: reveal.css
+---
+
+
+```{r setup, include=FALSE, echo=FALSE, message=FALSE, warning=FALSE}
+library(png)
+library(jpeg)
+library(grid)
+library(knitr)
+library(kableExtra)
+library(tidyverse)
+library(revealjs)
+```
+
+
+
+<section data-background-image="images/new-mexico-banner-6b5ab7d2.jpeg";
+         data-background-size:"contain"
+         background-repeat: no-repeat;
+         >
+
+
+</section>
+
+
+
+# The MSSP NCNP Team {data-background="images/bkgnd-1.svg"}
+
+<<<<<<< HEAD
+Am I here?
+=======
+- Professor: Haviland Wright
+
+- Group 1: Jimmy Ye, Jinyu Li, Yuli Jin
+
+- Group 2: Daniel Xu, Kayla Choi, Nancy Shen
+
+- Group 3: Mi Zhang, Boyu Chen, Shicong Wang, Biyao Zhang
+
+- Group 4: Keliang Xu, Yingjie Wang, James He, Ruining Jia
+>>>>>>> 70b41f8661570aa73b6a44b313146de22d6425dd
+
+
+# Our Partners {data-background="images/bkgnd-2.svg"}
+
+- Aidan O'Hara
+
+- Alison Turner
+
+- Allen Razdow
+
+# Project Background {data-background="images/bkgnd-2.svg"}
+
+<div style="font-size:14pt">
+
+- The current developing situation in NCNM:
+
+They are at a turning point right now. Historically NCNM has had few resources in order to acquire grants and successfully administer ten in order to complete projects. With pandemic related dollars flowing to the region they finally have capital to spend on some of our most needed projects. Broadband access and issues of outmigration are the two biggest issues exiting.
+
+- What approaches are used for collecting data:
+
+Census, mostly. They don’t collect a lot of data from their office but would be happy if there were recommendations on the gaps in census data or the insufficiencies that they’re seeing by the census as a region.
+
+- What variables will we use for this project? On what scales are they measured:
+
+Demographics(categorical).<br>
+Income(numerical), range: 0-1,000,000,000,000 (unsure if this is the maximum) gross receipts tased.<br>
+Unemployment rate(numerical).<br>
+GDP(numerical).<br>
+Number of business establishments(numerical).<br>
+
+</div>
+
+# Project focus {data-background="images/bkgnd-2.svg"}
+
+<div style="font-size:16pt">
+
+The ED-900 form must accompany all EDA grant applications.  Here's an example:   
+<div style="left-margin:40px">
+ - [ED-900 form]https://tahoeprosperity.org/wp-content/uploads/TPC-EDA-finalgrant-form-900.pdf)
+<br><br>
+
+Ultimate Goal:
+
+- TrueNumbers database that can be accessed by NCNMEDD and local government  staff to assist with grant applications.
+
+- An analysis of the data from the region - we have fairly low census response rates which could lead to data quality issues - if data quality issues exist, we need to come up with supplemental sources of data to improve inferences made about the region.
+
+Focusing on for this semester:
+
+- TrueNumbers
+
+- Dive into that the census is, why it’s important, and how low response rates may pose an issue.
+
+</div>
+</div>
+
+# Our approach {data-background="images/bkgnd-2.svg"}
+
+
+# Trueumbers {data-background="images/bkgnd-2.svg"}
+
+
+
+# Data {data-background="images/bkgnd-2.svg"}
+
+ 
+ 
+# EDA Appetizer {data-background="images/bkgnd-2.svg"}
