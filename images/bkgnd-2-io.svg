@@ -11,12 +11,12 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="960"
-   height="540"
-   viewBox="0 0 254 142.875"
+   height="700"
+   viewBox="0 0 254 185.20833"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="bkgnd-2.svg">
+   sodipodi:docname="bkgnd-2-io.svg">
   <defs
      id="defs2">
     <filter
@@ -36,9 +36,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.6121908"
-     inkscape:cx="448.51498"
-     inkscape:cy="221.90309"
+     inkscape:zoom="12.994199"
+     inkscape:cx="194.57561"
+     inkscape:cy="352.53831"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -68,7 +68,7 @@
      inkscape:label="foot-1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-154.125)"
+     transform="translate(0,-111.79167)"
      style="display:inline">
     <image
        y="274.09573"
@@ -95,7 +95,7 @@
      id="layer2"
      inkscape:label="glyph-1"
      style="display:inline"
-     transform="translate(0,-73.025)">
+     transform="translate(0,-30.691667)">
     <image
        y="111.24728"
        x="217.83809"

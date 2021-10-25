@@ -21,6 +21,7 @@ library(revealjs)
 
 
 <section data-background-image="images/new-mexico-banner-6b5ab7d2.jpeg";
+<section data-background-image="images/new-mexico-banner-title-slide.png";
          data-background-size:"contain"
          background-repeat: no-repeat;
          >
@@ -31,6 +32,9 @@ library(revealjs)
 
 
 # The MSSP NCNP Team {data-background="images/bkgnd-1.svg"}
+# The MSSP NCNP Team {data-background="images/bkgnd-2.svg"}
+
+
 
 <<<<<<< HEAD
 Am I here?
