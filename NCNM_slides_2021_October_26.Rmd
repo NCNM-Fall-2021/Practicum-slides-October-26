@@ -153,6 +153,10 @@ tnum.query:
 
 # Trueumbers continue... {data-background="images/bkgnd-2.svg"}
 
+<img data-src="images/Tnum Cheatsheet.png" height="575" width="840" />
+
+# Trueumbers continue.... {data-background="images/bkgnd-2.svg"}
+
 tnum.objectsToDf: 
 
 - make data frame from list of tnum objects 
