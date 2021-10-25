@@ -34,11 +34,7 @@ library(revealjs)
 # The MSSP NCNM Team {data-background="images/bkgnd-1.svg"}
 # The MSSP NCNM Team {data-background="images/bkgnd-2.svg"}
 
-
-
-<<<<<<< HEAD
 The MSSP NCNM Presentation
-=======
 - Professor: Haviland Wright
 
 - Group 1: Jimmy Ye, Jinyu Li, Yuli Jin
@@ -49,22 +45,15 @@ The MSSP NCNM Presentation
 
 - Group 4: Keliang Xu, Yingjie Wang, James He, Ruining Jia
 
->>>>>>> 70b41f8661570aa73b6a44b313146de22d6425dd
-
 
 # Our Partners {data-background="images/bkgnd-2.svg"}
 
 - Aidan O'Hara:has been preparing for this project since late July
 
 - Alison Turner: a Community Development Planner at NCNMEDD and recent MSSP graduate
-<<<<<<< HEAD
 
 - Allen Razdow:founder and president of True Engineering Technology, LLC and originator of Truenumbers
 
-=======
-
-- Allen Razdow:founder and president of True Engineering Technology, LLC and originator of Truenumbers
->>>>>>> 7b4652a168e7489ef6398793feeb822178d4558d
 
 # Project Background {data-background="images/bkgnd-2.svg"}
 
