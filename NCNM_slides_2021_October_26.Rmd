@@ -48,6 +48,7 @@ Am I here?
 - Group 3: Mi Zhang, Boyu Chen, Shicong Wang, Biyao Zhang
 
 - Group 4: Keliang Xu, Yingjie Wang, James He, Ruining Jia
+
 >>>>>>> 70b41f8661570aa73b6a44b313146de22d6425dd
 
 
@@ -145,18 +146,34 @@ tnum.graphPathList:
   style = "neato"
 )
 
-# Trueumbers continue... {data-background="images/bkgnd-2.svg"}
-
 tnum.query: 
 
 - Query the truenumber DB 
 - Usage:tnum.query(query = "* has *", SI = FALSE, max = 10, start = 0)
 
+# Trueumbers continue... {data-background="images/bkgnd-2.svg"}
 
 tnum.objectsToDf: 
 
 - make data frame from list of tnum objects 
 - Usage:tnum.objectsToDf(objs)
+
+tnum.graphTnumList：
+
+- Make full tnum graph from tnum.query return data frame
+- Usage:
+tnum.graphTnumList(
+  tlist,
+  tagpattern = "",
+  collectors = list(),
+  style = "neato"
+)
+
+tnum.getAttrFromList:
+
+- Title 
+- Usage: tnum.getAttrFromList(obs, attname, rval = NA)
+
 
 
 # Data {data-background="images/bkgnd-2.svg"}
