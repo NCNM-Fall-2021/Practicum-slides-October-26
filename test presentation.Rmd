@@ -1,0 +1,97 @@
+---
+title: "NCNM Partner Project Presentation"
+output: 
+  revealjs::revealjs_presentation:
+    self_contained: false
+    reveal_plugins: 
+      - search
+      - zoom
+      - notes
+      - chalkboard
+      - menu
+    reveal_options:
+      chalkboard:
+        theme: chalkboard
+        toggleNotesButton: true
+      menu:
+        numbers: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+pacman::p_load("png","jpeg","grid","knitr","kableExtra","ggplot2","glmx","tidyverse")
+```
+
+## The MSSP NCNP Team {data-background="images/bkgnd-1.svg"}
+
+
+- Professor: Haviland Wright
+- Group 1: Jimmy Ye, Jinyu Li, Yuli Jin
+- Group 2: Daniel Xu, Kayla Choi, Nancy Shen
+- Group 3: Mi Zhang, Boyu Chen, Shicong Wang, Biyao Zhang
+- Group 4: Keliang Xu, Yingjie Wang, James He
+
+
+## Our Partners {data-background="images/bkgnd-2.svg"}
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+
+## Project Background {data-background="images/bkgnd-2.svg"}
+<div style="font-size:12pt">
+
+- The current developing situation in NCNM:
+
+They are at a turning point right now. Historically NCNM has had few resources in order to acquire grants 
+and successfully administer ten in order to complete projects. With pandemic related dollars flowing to   the region they finally have capital to spend on some of our most needed projects. Broadband access and   issues of outmigration are the two biggest issues exiting.
+
+- What approaches are used for collecting data:
+
+Census, mostly. They don’t collect a lot of data from their office but would be happy if there were recommendations on the gaps in census data or the insufficiencies that they’re seeing by the census as a region.
+
+- What variables will we use for this project? On what scales are they measured:
+
+Demographics(categorical)
+Income(numerical), range: 0-1,000,000,000,000 (unsure if this is the maximum) gross receipts tased.
+Unemployment rate(numerical)
+GDP(numerical)
+Number of business establishments(numerical)
+
+</div>
+
+
+## Project focus {data-background="images/bkgnd-2.svg"}
+
+<div style="font-size:16pt">
+
+The ED-900 form must accompany all EDA grant applications.  Here's an example:   
+<div style="left-margin:40px">
+ - [ED-900 form]https://tahoeprosperity.org/wp-content/uploads/TPC-EDA-finalgrant-form-900.pdf)
+<br><br>
+</div>
+
+Ultimate Goal
+
+- TrueNumbers database that can be accessed by NCNMEDD and local government  staff to assist with grant applications.
+- An analysis of the data from the region - we have fairly low census response rates which could lead to data quality issues - if data quality issues exist, we need to come up with supplemental sources of data to improve inferences made about the region.
+
+Focusing on for this semeste
+
+- TrueNumbers
+- Dive into that the census is, why it’s important, and how low response rates may pose an issue.
+
+</div>
+
+## Our approach {data-background="images/bkgnd-2.svg"}
+
+
+## Trueumbers {data-background="images/bkgnd-2.svg"}
+
+
+## Data {data-background="images/bkgnd-2.svg"}
+
+ 
+ 
+## EDA Appetizer {data-background="images/bkgnd-2.svg"}
