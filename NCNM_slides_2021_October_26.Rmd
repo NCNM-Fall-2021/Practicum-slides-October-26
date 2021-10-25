@@ -57,9 +57,14 @@ The MSSP NCNM Presentation
 - Aidan O'Hara:has been preparing for this project since late July
 
 - Alison Turner: a Community Development Planner at NCNMEDD and recent MSSP graduate
+<<<<<<< HEAD
 
 - Allen Razdow:founder and president of True Engineering Technology, LLC and originator of Truenumbers
 
+=======
+
+- Allen Razdow:founder and president of True Engineering Technology, LLC and originator of Truenumbers
+>>>>>>> 7b4652a168e7489ef6398793feeb822178d4558d
 
 # Project Background {data-background="images/bkgnd-2.svg"}
 
@@ -102,7 +107,7 @@ Focusing on for this semester:
 
 - TrueNumbers
 
-- Dive into that the census is, why it’s important, and how low response rates may pose an issue.
+- Dive into what the census is, why it’s important, and how low response rates may pose an issue.
 
 </div>
 </div>
@@ -187,18 +192,18 @@ tnum.getAttrFromList:
 Design functions to clean the data in order to let everyone easily use 'filter&select' to tackle the data:
 <div style="left-margin:40px">
 Modify Dataset:
- - clean_tag: Modify the columns of subjects and tags to more simple columns <br>
- - get_county: Modify the column of county to more simple column <br>
+- clean_tag: Modify the columns of subjects and tags to more simple columns <br>
+- get_county: Modify the column of county to more simple column <br>
 
 Function for tackling the data for further analysis:
- - get_county_data: This function is designed to get the data from different county <br>
+- get_county_data: This function is designed to get the data from different county <br>
  
 You still need some steps to get the data: 
 Connect BU VPN: vpn.bu.edu <br>
 Run the following code and wait for seconds: <br>
- - source(file='data_clean/mexico_screen_function.R')<br>
- - data<-get_county_data()<br>
- - data %>% view()<br>
+- source(file='data_clean/mexico_screen_function.R')<br>
+- data<-get_county_data()<br>
+- data %>% view()<br>
 </div>
 </div>
  
