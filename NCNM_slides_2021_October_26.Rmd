@@ -106,72 +106,15 @@ Focusing on for this semester:
 
 # Truenumbers {data-background="images/bkgnd-2.svg"}
 
-<div style="font-size:16pt">
-
-tnum.authorize:
-
-- Make and render a graph from a list of phrase paths 
-- Usage:tnum.authorize(ip = " ")
-
-tnum.setSpace:
-
-- Set a particular number space as current 
-- Usage:tnum.setSpace(name = "testspace")
+<img data-src="images/Tnum_1.png" height="550" width="900" />
 
 # Truenumbers continue.. {data-background="images/bkgnd-2.svg"}
 
-tnum.getDBPathList: 
-
-- Get phrase taxonomies
-- Usage:tnum.getDBPathList(
-  taxonomy = "subject",
-  pattern = "",
-  levels = NA,
-  max = 100,
-  start.at = 0
-)
-
-tnum.graphPathList:
-
-- Make and render a graph from a list of phrase paths 
-- Usage:tnum.graphPathList(
-  pathList = list(),
-  rootLabel = "ROOT",
-  levels = 10,
-  style = "neato"
-)
-
-tnum.query: 
-
-- Query the truenumber DB 
-- Usage:tnum.query(query = "* has *", SI = FALSE, max = 10, start = 0)
+<img data-src="images/Tnum_2.png" height="550" width="900" />
 
 # Truenumbers continue... {data-background="images/bkgnd-2.svg"}
 
-<img data-src="images/Tnum Cheatsheet.png" height="575" width="840" />
-
-# Truenumbers continue.... {data-background="images/bkgnd-2.svg"}
-
-tnum.objectsToDf: 
-
-- make data frame from list of tnum objects 
-- Usage:tnum.objectsToDf(objs)
-
-tnum.graphTnumList：
-
-- Make full tnum graph from tnum.query return data frame
-- Usage:
-tnum.graphTnumList(
-  tlist,
-  tagpattern = "",
-  collectors = list(),
-  style = "neato"
-)
-
-tnum.getAttrFromList:
-
-- Title 
-- Usage: tnum.getAttrFromList(obs, attname, rval = NA)
+<img data-src="images/Tnum_3.png" height="550" width="900" />
 
 # Data {data-background="images/bkgnd-2.svg"}
 
