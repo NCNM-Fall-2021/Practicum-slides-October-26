@@ -23,9 +23,10 @@ library(revealjs)
 <section data-background-image="images/new-mexico-banner-6b5ab7d2.jpeg";
 <section data-background-image="images/new-mexico-banner-title-slide.png";
          data-background-size:"contain"
-         background-repeat: no-repeat;
-         >
+         background-repeat: no-repeat;>
+<title>
 
+</title>
 
 </section>
 
@@ -48,11 +49,11 @@ The MSSP NCNM Presentation
 
 # Our Partners {data-background="images/bkgnd-2.svg"}
 
-- Alison Turner: a Community Development Planner at NCNMEDD and recent MSSP graduate
+- Alison Turner: A Community Development Planner at NCNMEDD and recent MSSP graduate
 
-- Aidan O'Hara: working with Alison since late July
+- Aidan O'Hara: Working with Alison since late July
 
-- Allen Razdow:founder and president of True Engineering Technology, LLC and originator of Truenumbers
+- Allen Razdow: Founder and president of True Engineering Technology, LLC and originator of Truenumbers
 
 
 # Project Background {data-background="images/bkgnd-2.svg"}
@@ -149,7 +150,7 @@ Data availability for geographic areas differs by population size:
 # Data {data-background="images/bkgnd-2.svg"}
 
 <div style="font-size:16pt">
-Parameter interpretation
+<b>Parameter interpretation</b>
 <div style="left-margin:40px">
 Estimates are produced for 
 - demographic characteristics (sex,age,);<br>
@@ -157,7 +158,10 @@ Estimates are produced for
 - economic characteristics (employment status, commuting to work);<br>
 - housing characteristics (housing occupancy, units in structure).<br>
 
-In this presentation, we basically focused on 
+In this presentation, we basically focused on<br>
+<img data-src="images/data_1.png" height="440" width="840" />
+
+
 
 </div>
 </div>
@@ -165,7 +169,7 @@ In this presentation, we basically focused on
 # Data {data-background="images/bkgnd-2.svg"}
 
 <div style="font-size:16pt">
-What did we do?
+<b>What did we do?</b>
 <div style="font-size:14pt">
 Design functions to clean the data in order to let everyone easily use 'filter&select' to tackle the data:
 <div style="left-margin:40px">
@@ -188,9 +192,80 @@ Run the following code and wait for seconds: <br>
  
 # EDA Appetizer {data-background="images/bkgnd-2.svg"}
 
-<img data-src="images/eda1.png" height="575" width="840" />
+<img data-src="images/eda4.png" height="400" width="840" />
 
+<div style="left-margin:40px">
+This images shows the overall population of New Mexico as well as the eight counties that we are interested in.
+</div>
 
 # EDA Appetizer {data-background="images/bkgnd-2.svg"}
 
-<img data-src="images/eda2.jpg" height="575" width="840" />
+<img data-src="images/eda2.jpg" height="400" width="840" />
+
+<div style="left-margin:40px">
+This is a plot shows the percentages of the observations of eight counties in our data. We can see that Santa Fe and Sandoval are the two major counties where census collected more data.
+</div>
+
+# EDA Appetizer {data-background="images/bkgnd-2.svg"}
+
+<img data-src="images/eda1.png" height="450" width="840" />
+
+<div style="left-margin:40px">
+By comparing the races of eight counties which shows the dominant race is white in all of them. In addition, both Sandoval and Santa Fe have larger population then rest of them.
+</div>
+
+# EDA Appetizer {data-background="images/bkgnd-2.svg"}
+
+<img data-src="images/eda3.png" height="400" width="840" />
+
+<div style="left-margin:40px">
+The figure can clearly reflect the difference in per capita income between different counties, as well as the change in per capita income in the same county every year.
+</div>
+
+# Conclusion {data-background="images/bkgnd-2.svg"}
+<div style="fond-size:16pct">
+<b>What we have done for now:</b>
+<div style="fond-size:15pct">
+- Tnum part:
+<div style="fond-size:14pct">
+1. Summarize and understand the Tnum functions; <br>
+2. Familiar with Tnum cheatsheet and making tree graphs<br>
+
+<div style="fond-size:15pct">
+- Data part: 
+<div style="fond-size:14pct">
+1. Extract 43796 raw observations;<br>
+2. Have Designed two function to split the two columns contain txt into seven columns;<br>
+3. Extract some useful information like time, county, etc for EDA team.<br>
+
+<div style="fond-size:15pct">
+- EDA:
+<div style="fond-size:14pct">
+1. The majority of census data collected from Sandoval and Santa Fe;<br>
+2. The dominant race in these eight counties is white;<br>
+3. But we also found that the gap between the poor and the rich is very large. The relationship between population and per capita income is Inversely Proportional.<br>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+# What we are going to do next: {data-background="images/bkgnd-2.svg"}
+
+1. Come up with mapping, text, graphs routine so that the we can easily re-create new pictures in the future.<br>
+2. Set a standard for future presentation slides.<br>
+3. From the present basic analysis to more detailed geolocated maps and graphs, including bar charts, pie chart, etc.<br>
+4. Further analyze the data we have, and try to get more numeric values.<br>
+5. Design a Tnum database and paper describing any findings on data quality to help set up a standard to apply for grant.<br>
+
+
+# Questions {data-background="images/bkgnd-2.svg"}
+
+<img data-src="images/bg_1.jpg" height="575" width="840" />
+
+# Thank you {data-background="images/bkgnd-2.svg"}
+
+<img data-src="images/bg_2.jpg" height="575" width="840" />
