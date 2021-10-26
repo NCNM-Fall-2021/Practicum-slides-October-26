@@ -19,14 +19,10 @@ library(revealjs)
 ```
 
 
-
-<section data-background-image="images/new-mexico-banner-6b5ab7d2.jpeg";
-<section data-background-image="images/new-mexico-banner-title-slide.png";
+<section data-background-image="images/title-io1.svg";
          data-background-size:"contain"
          background-repeat: no-repeat;>
-<title>
 
-</title>
 
 </section>
 
@@ -36,6 +32,8 @@ library(revealjs)
 
 
 The MSSP NCNM Presentation
+<br>
+<div>
 - Professor: Haviland Wright
 
 - Group 1: Jimmy Ye, Jinyu Li, Yuli Jin
@@ -45,7 +43,7 @@ The MSSP NCNM Presentation
 - Group 3: Mi Zhang, Boyu Chen, Shicong Wang, Biyao Zhang
 
 - Group 4: Keliang Xu, Yingjie Wang, James He, Ruining Jia
-
+</div>
 
 # Our Partners {data-background="images/bkgnd-2.svg"}
 
@@ -58,59 +56,65 @@ The MSSP NCNM Presentation
 
 # Project Background {data-background="images/bkgnd-2.svg"}
 
-<div style="font-size:14pt">
-
-- The current developing situation in NCNM:
-
+<div style="font-size:18pt">
+- <b>The current developing situation in NCNM:</b><br></div>
+<div style="font-size:15pt;margin-left:40px">
 Historically, few resources to acquire grants <br>
 Trouble successfully administering grants to complete projects <br>
 Currently, at a turning point: <br>
-New pandemic-related dollars flowing to the region; have capital to spend on new projects<br>
-Two big issues of broadband access and issues of outmigration <br>
-
-- What approaches are used for collecting data:
-
+<div style="font-size:15pt;margin-left:20px">
+- New pandemic-related dollars flowing to the region; have capital to spend on new projects<br>
+- Two big issues of broadband access and issues of outmigration <br>
+</div>
+</div>
+<br>
+<div style="font-size:16pt">
+- <b>What approaches are used for collecting data:</b><br></div>
+<div style="font-size:15pt;margin-left:40px">
 Census; they don’t collect a lot of data from their office<br>
-They would like recommendations on the gaps in census data or the insufficiencies that they’re seeing by the census as a region.
-
-- What variables will we use for this project? On what scales are they measured:
-
+They would like recommendations on the gaps in census data or the insufficiencies that they’re seeing by the census as a region.<br>
+</div>
+<br>
+<div style="font-size:16pt">
+- <b>What variables will we use for this project? On what scales are they measured:</b><br></div>
+<div style="font-size:15pt;margin-left:40px">
 Demographics(categorical).<br>
 Income(numerical), range: 0-1,000,000,000,000 (unsure if this is the maximum) gross receipts tased.<br>
 Unemployment rate(numerical).<br>
 GDP(numerical).<br>
 Number of business establishments(numerical).<br>
-
 </div>
+
+
 
 # Project focus {data-background="images/bkgnd-2.svg"}
 
-<div style="font-size:16pt">
-
-The ED-900 form must accompany all EDA grant applications.  Here's an example:   
-<div style="left-margin:40px">
+<div style="font-size:18pt">
+The ED-900 form must accompany all EDA grant applications.  Here's an example:</div>
+<div style="font-size:16pt;margin-left:40px">
  - [ED-900 form]https://tahoeprosperity.org/wp-content/uploads/TPC-EDA-finalgrant-form-900.pdf)
-<br><br>
+<br>
+</div>
 
-Ultimate Goal:
-
+<div style="font-size:18pt">
+<b>Ultimate Goal:</b><br></div>
+<div style="font-size:16pt;margin-left:40px">
 - TrueNumbers database that can be accessed by NCNMEDD and local government staff to assist with grant applications.
 
 - An analysis of the data from the region - we have fairly low census response rates which could lead to data quality issues 
 
 - If data quality issues exist, come up with supplemental sources of data to improve inferences made about the region.
+</div>
 
-Focusing on for this semester:
-
+<div style="font-size:18pt">
+<b>Focusing on for this semester:</b><br></div>
+<div style="font-size:16pt;margin-left:40px">
 - TrueNumbers
 
 - Dive into what the census is, why it’s important, and how low response rates may pose an issue.
-
-</div>
 </div>
 
 # Our approach {data-background="images/bkgnd-2.svg"}
-
 - Streamline the data acquisition, organization, and analysis process.
 
 - Using Tnum package, created function to extract county-level census data.
@@ -121,7 +125,7 @@ Focusing on for this semester:
 
 # Truenumbers {data-background="images/bkgnd-2.svg"}
 
-<img data-src="images/Tnum_1.png" height="550" width="900" />
+<img data-src="Tnum_10.png" height="550" width="900" />
 
 # Truenumbers continue.. {data-background="images/bkgnd-2.svg"}
 
@@ -134,138 +138,107 @@ Focusing on for this semester:
 # Data {data-background="images/bkgnd-2.svg"}
 
 <div style="font-size:16pt">
-Data Source
-<div style="left-margin:40px">
-Our data is from ACS(American Community Survey). 
+<b>Data Source - ACS</b></div>
+<div style="font-size:15pt;margin-left:40px">
 
-The ACS is a large demographic survey collected throughout the year using mailed questionnaires, telephone interviews, and visits from Census Bureau field representatives to about 3.5 million household addresses annually.
+The ACS (American Community Survey) is a large demographic survey collected throughout the year using mailed questionnaires, telephone interviews, and visits from Census Bureau field representatives to about 3.5 million household addresses annually.<br>
 
-Data availability for geographic areas differs by population size: 
-<div style="font-size:15pt">
-1-year estimates are available for areas of population 65,000 or more, while 5-year estimates are available for all areas.
-</div>
-</div>
+<img data-src="images/US-Census-ACSLogo.svg" height="300" width="900" /> 
+
+
 </div>
 
 # Data {data-background="images/bkgnd-2.svg"}
 
 <div style="font-size:16pt">
-<b>Parameter interpretation</b>
-<div style="left-margin:40px">
-Estimates are produced for 
-- demographic characteristics (sex,age,);<br>
-- social characteristics (school enrollment, educational attainment);<br>
-- economic characteristics (employment status, commuting to work);<br>
-- housing characteristics (housing occupancy, units in structure).<br>
-
-In this presentation, we basically focused on<br>
-<img data-src="images/data_1.png" height="440" width="840" />
+<b>Parameters</b></div>
+<div style="margin-left:40px">
+<img data-src="images/data_1.png" height="550" width="840" />
 
 
-
-</div>
 </div>
 
 # Data {data-background="images/bkgnd-2.svg"}
 
 <div style="font-size:16pt">
-<b>What did we do?</b>
-<div style="font-size:14pt">
-Design functions to clean the data in order to let everyone easily use 'filter&select' to tackle the data:
-<div style="left-margin:40px">
-Modify Dataset:
-- clean_tag: Modify the columns of subjects and tags to more simple columns <br>
-- get_county: Modify the column of county to more simple column <br>
+<b>What we did?</b>
+<div style="margin-left:40px">
+<b>Original Dataset</b>
+<img data-src="images/pre_dataset.png" height="220" width="840"/>
+<br>
+<b>After Processing</b>
+<img data-src="images/post_dataset.png" height="220" width="840"/>
 
-Function for tackling the data for further analysis:
-- get_county_data: This function is designed to get the data from different county <br>
- 
-You still need some steps to get the data: 
-Connect BU VPN: vpn.bu.edu <br>
-Run the following code and wait for seconds: <br>
-- source(file='data_clean/mexico_screen_function.R')<br>
-- data<-get_county_data()<br>
-- data %>% view()<br>
-</div>
+
 </div>
 </div>
  
 # EDA Appetizer {data-background="images/bkgnd-2.svg"}
 
-<img data-src="images/eda4.png" height="400" width="840" />
+<img data-src="images/eda4.png" height="500" width="840" />
 
-<div style="left-margin:40px">
-This images shows the overall population of New Mexico as well as the eight counties that we are interested in.
-</div>
+This image shows the overall population of New Mexico as well as the eight counties that we are interested in.
 
 # EDA Appetizer {data-background="images/bkgnd-2.svg"}
 
 <img data-src="images/eda2.jpg" height="400" width="840" />
 
-<div style="left-margin:40px">
-This is a plot shows the percentages of the observations of eight counties in our data. We can see that Santa Fe and Sandoval are the two major counties where census collected more data.
-</div>
+The figure shows the percentage of the observations of eight counties in our data. We can see that Santa Fe and Sandoval are the two major counties where census collected more data.
+
 
 # EDA Appetizer {data-background="images/bkgnd-2.svg"}
 
 <img data-src="images/eda1.png" height="450" width="840" />
 
-<div style="left-margin:40px">
 By comparing the races of eight counties which shows the dominant race is white in all of them. In addition, both Sandoval and Santa Fe have larger population then rest of them.
-</div>
+
 
 # EDA Appetizer {data-background="images/bkgnd-2.svg"}
 
-<img data-src="images/eda3.png" height="400" width="840" />
+<img data-src="images/eda3.png" height="450" width="900" />
 
-<div style="left-margin:40px">
-The figure can clearly reflect the difference in per capita income between different counties, as well as the change in per capita income in the same county every year.
-</div>
+
+The figure can clearly reflect the difference in per capital income between different counties, as well as the change in per capital income in the same county every year.
 
 # Conclusion {data-background="images/bkgnd-2.svg"}
-<div style="fond-size:16pct">
-<b>What we have done for now:</b>
-<div style="fond-size:15pct">
-- Tnum part:
-<div style="fond-size:14pct">
+<div style="font-size:16pct">
+<b>What we have done for now:</b></div>
+<div style="font-size:15pct">
+Tnum part:<br></div>
+<div style="font-size:14pct;margin-left:40px">
 1. Summarize and understand the Tnum functions; <br>
 2. Familiar with Tnum cheatsheet and making tree graphs<br>
+</div>
 
-<div style="fond-size:15pct">
-- Data part: 
-<div style="fond-size:14pct">
-1. Extract 43796 raw observations;<br>
-2. Have Designed two function to split the two columns contain txt into seven columns;<br>
-3. Extract some useful information like time, county, etc for EDA team.<br>
+<div style="font-size:15pct">
+Data part:<br></div>
+<div style="font-size:14pct;margin-left:40px">
+1. Extract 43,796 raw observations;<br>
+2. Have designed two functions to split the two columns into seven columns;<br>
+3. Extract some useful information like time, county, etc. for the EDA team.<br>
+</div>
 
-<div style="fond-size:15pct">
-- EDA:
-<div style="fond-size:14pct">
+<div style="font-size:15pct">
+EDA:<br></div>
+<div style="font-size:14pct;margin-left:40px">
 1. The majority of census data collected from Sandoval and Santa Fe;<br>
 2. The dominant race in these eight counties is white;<br>
-3. But we also found that the gap between the poor and the rich is very large. The relationship between population and per capita income is Inversely Proportional.<br>
-
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+3. But we also found that the gap between the poor and the rich is very large. The relationship between population and per capital income is inversely proportional.
 </div>
 
-# What we are going to do next: {data-background="images/bkgnd-2.svg"}
-
-1. Come up with mapping, text, graphs routine so that the we can easily re-create new pictures in the future.<br>
+# What we are going to do next {data-background="images/bkgnd-2.svg"}
+<div style="margin-left:40px>
+1. Come up with mapping, text, graphs routine so that the we can easily re-create new graphs in the future.<br>
 2. Set a standard for future presentation slides.<br>
-3. From the present basic analysis to more detailed geolocated maps and graphs, including bar charts, pie chart, etc.<br>
+3. From the present basic analysis to more detailed geolocated maps and graphs, including bar charts, pie charts, etc.<br>
 4. Further analyze the data we have, and try to get more numeric values.<br>
-5. Design a Tnum database and paper describing any findings on data quality to help set up a standard to apply for grant.<br>
+5. Design a Tnum database and articles describing any findings on data quality to help set up a standard to apply for grants.<br>
+</div>
 
-
-# Questions {data-background="images/bkgnd-2.svg"}
+# Questions? {data-background="images/bkgnd-2.svg"}
 
 <img data-src="images/bg_1.jpg" height="575" width="840" />
 
-# Thank you {data-background="images/bkgnd-2.svg"}
+# Thank you! {data-background="images/bkgnd-2.svg"}
 
 <img data-src="images/bg_2.jpg" height="575" width="840" />
