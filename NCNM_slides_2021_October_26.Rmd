@@ -32,7 +32,7 @@ library(revealjs)
 
 
 # The MSSP NCNM Team {data-background="images/bkgnd-1.svg"}
-# The MSSP NCNM Team {data-background="images/bkgnd-2.svg"}
+
 
 The MSSP NCNM Presentation
 - Professor: Haviland Wright
@@ -48,9 +48,9 @@ The MSSP NCNM Presentation
 
 # Our Partners {data-background="images/bkgnd-2.svg"}
 
-- Aidan O'Hara:has been preparing for this project since late July
-
 - Alison Turner: a Community Development Planner at NCNMEDD and recent MSSP graduate
+
+- Aidan O'Hara: working with Alison since late July
 
 - Allen Razdow:founder and president of True Engineering Technology, LLC and originator of Truenumbers
 
@@ -61,11 +61,16 @@ The MSSP NCNM Presentation
 
 - The current developing situation in NCNM:
 
-They are at a turning point right now. Historically NCNM has had few resources in order to acquire grants and successfully administer ten in order to complete projects. With pandemic related dollars flowing to the region they finally have capital to spend on some of our most needed projects. Broadband access and issues of outmigration are the two biggest issues exiting.
+Historically, few resources to acquire grants <br>
+Trouble successfully administering grants to complete projects <br>
+Currently, at a turning point: <br>
+New pandemic-related dollars flowing to the region; have capital to spend on new projects<br>
+Two big issues of broadband access and issues of outmigration <br>
 
 - What approaches are used for collecting data:
 
-Census, mostly. They don’t collect a lot of data from their office but would be happy if there were recommendations on the gaps in census data or the insufficiencies that they’re seeing by the census as a region.
+Census; they don’t collect a lot of data from their office<br>
+They would like recommendations on the gaps in census data or the insufficiencies that they’re seeing by the census as a region.
 
 - What variables will we use for this project? On what scales are they measured:
 
@@ -88,9 +93,11 @@ The ED-900 form must accompany all EDA grant applications.  Here's an example:
 
 Ultimate Goal:
 
-- TrueNumbers database that can be accessed by NCNMEDD and local government  staff to assist with grant applications.
+- TrueNumbers database that can be accessed by NCNMEDD and local government staff to assist with grant applications.
 
-- An analysis of the data from the region - we have fairly low census response rates which could lead to data quality issues - if data quality issues exist, we need to come up with supplemental sources of data to improve inferences made about the region.
+- An analysis of the data from the region - we have fairly low census response rates which could lead to data quality issues 
+
+- If data quality issues exist, come up with supplemental sources of data to improve inferences made about the region.
 
 Focusing on for this semester:
 
@@ -103,6 +110,13 @@ Focusing on for this semester:
 
 # Our approach {data-background="images/bkgnd-2.svg"}
 
+- Streamline the data acquisition, organization, and analysis process.
+
+- Using Tnum package, created function to extract county-level census data.
+
+- Visualization using ggplot to check the relationship between variables.
+
+- Create some models to have an in-depth insight of the grant situation of New Mexico
 
 # Truenumbers {data-background="images/bkgnd-2.svg"}
 
