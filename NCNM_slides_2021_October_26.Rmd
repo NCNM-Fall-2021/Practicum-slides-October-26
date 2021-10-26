@@ -5,8 +5,6 @@ output:
     theme: white
     highlight: pygments 
     css: reveal.css
-    self_contained: false
-    reveal_plugins: ["zoom"]
 ---
 
 
